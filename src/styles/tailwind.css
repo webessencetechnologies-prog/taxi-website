@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --color-primary: #FFD700; /* yellow - Attention-grabbing CTAs and pricing highlights */
+    --color-primary-foreground: #2C3E50; /* dark-blue-gray - High contrast for primary buttons */
+    
+    /* Secondary Colors */
+    --color-secondary: #FFC107; /* amber - Interactive elements and hover states */
+    --color-secondary-foreground: #2C3E50; /* dark-blue-gray - High contrast for secondary buttons */
+    
+    /* Accent Colors */
+    --color-accent: #FF6B35; /* orange-red - Urgent actions and error states */
+    --color-accent-foreground: #FFFFFF; /* white - High contrast for accent elements */
+    
+    /* Background Colors */
+    --color-background: #FEFEFE; /* off-white - Clean content canvas for readability */
+    --color-foreground: #2C3E50; /* dark-blue-gray - High contrast body text */
+    
+    /* Surface Colors */
+    --color-card: #F8F8F8; /* light-gray - Subtle card backgrounds and sections */
+    --color-card-foreground: #2C3E50; /* dark-blue-gray - Card text color */
+    --color-popover: #FFFFFF; /* white - Popover background */
+    --color-popover-foreground: #2C3E50; /* dark-blue-gray - Popover text */
+    
+    /* Muted Colors */
+    --color-muted: #F8F8F8; /* light-gray - Muted backgrounds */
+    --color-muted-foreground: #6C757D; /* gray - Supporting information and labels */
+    
+    /* Border & Input */
+    --color-border: #E9ECEF; /* light-gray - Form inputs and content separation */
+    --color-input: #E9ECEF; /* light-gray - Input borders */
+    --color-ring: #FFD700; /* yellow - Focus ring color */
+    
+    /* Status Colors */
+    --color-success: #28A745; /* green - Booking confirmations and availability */
+    --color-success-foreground: #FFFFFF; /* white - Success text color */
+    
+    --color-warning: #FFC107; /* amber - Pricing alerts and availability notices */
+    --color-warning-foreground: #2C3E50; /* dark-blue-gray - Warning text color */
+    
+    --color-error: #DC3545; /* red - Form validation and booking issues */
+    --color-error-foreground: #FFFFFF; /* white - Error text color */
+    
+    --color-destructive: #DC3545; /* red - Destructive actions */
+    --color-destructive-foreground: #FFFFFF; /* white - Destructive text color */
+    
+    /* Radius */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --color-background: #1A1A1A; /* dark-gray - Dark mode background */
+    --color-foreground: #F8F8F8; /* light-gray - Dark mode text */
+    
+    --color-card: #2C2C2C; /* darker-gray - Dark mode card background */
+    --color-card-foreground: #F8F8F8; /* light-gray - Dark mode card text */
+    
+    --color-popover: #2C2C2C; /* darker-gray - Dark mode popover */
+    --color-popover-foreground: #F8F8F8; /* light-gray - Dark mode popover text */
+    
+    --color-muted: #2C2C2C; /* darker-gray - Dark mode muted background */
+    --color-muted-foreground: #9CA3AF; /* medium-gray - Dark mode muted text */
+    
+    --color-border: #3F3F3F; /* medium-dark-gray - Dark mode borders */
+    --color-input: #3F3F3F; /* medium-dark-gray - Dark mode input borders */
+    
+    --color-primary-foreground: #1A1A1A; /* dark-gray - Dark mode primary button text */
+    --color-secondary-foreground: #1A1A1A; /* dark-gray - Dark mode secondary button text */
+    --color-warning-foreground: #1A1A1A; /* dark-gray - Dark mode warning text */
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+
+  .font-accent {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .glass-morphism-hover:hover {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .animate-route-draw {
+    animation: route-draw 2s ease-in-out forwards;
+  }
+  
+  @keyframes route-draw {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .animate-count-up {
+    animation: count-up 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+  
+  @keyframes count-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
