@@ -8,7 +8,7 @@
 @layer base {
   :root {
     /* Primary Colors */
-    --color-primary: #FFD700; /* yellow - Attention-grabbing CTAs and pricing highlights */
+    --color-primary: #ffc61c; /* yellow - Attention-grabbing CTAs and pricing highlights */
     --color-primary-foreground: #2C3E50; /* dark-blue-gray - High contrast for primary buttons */
     
     /* Secondary Colors */
@@ -20,7 +20,7 @@
     --color-accent-foreground: #FFFFFF; /* white - High contrast for accent elements */
     
     /* Background Colors */
-    --color-background: #FEFEFE; /* off-white - Clean content canvas for readability */
+    --color-background: #ffffff; /* off-white - Clean content canvas for readability */
     --color-foreground: #2C3E50; /* dark-blue-gray - High contrast body text */
     
     /* Surface Colors */
@@ -30,13 +30,13 @@
     --color-popover-foreground: #2C3E50; /* dark-blue-gray - Popover text */
     
     /* Muted Colors */
-    --color-muted: #F8F8F8; /* light-gray - Muted backgrounds */
+    --color-muted: #faf2e8e6; /* light-gray - Muted backgrounds */
     --color-muted-foreground: #6C757D; /* gray - Supporting information and labels */
     
     /* Border & Input */
     --color-border: #E9ECEF; /* light-gray - Form inputs and content separation */
     --color-input: #E9ECEF; /* light-gray - Input borders */
-    --color-ring: #FFD700; /* yellow - Focus ring color */
+    --color-ring: #0f58a6; /* yellow - Focus ring color */
     
     /* Status Colors */
     --color-success: #28A745; /* green - Booking confirmations and availability */
