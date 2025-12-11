@@ -8,8 +8,8 @@
 @layer base {
   :root {
     /* Primary Colors */
-    --color-primary: #ffc61c; /* yellow - Attention-grabbing CTAs and pricing highlights */
-    --color-primary-foreground: #2C3E50; /* dark-blue-gray - High contrast for primary buttons */
+    --color-primary: #eb6c0a; /* yellow - Attention-grabbing CTAs and pricing highlights */
+    --color-primary-foreground: #f5f8fc; /* dark-blue-gray - High contrast for primary buttons */
     
     /* Secondary Colors */
     --color-secondary: #FFC107; /* amber - Interactive elements and hover states */

@@ -3,6 +3,8 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import ErrorBoundary from "./components/ErrorBoundary";
 import NotFound from "./pages/NotFound";
+import NavigationLoader from "./components/NavigationLoader";
+import Animations1 from "./pages/about/components/Animations1";
 import ContactHub from './pages/contact-hub';
 import PricingDashboard from './pages/pricing-dashboard';
 import RoutePlanner from './pages/route-planner';
@@ -15,6 +17,7 @@ const Routes = () => {
     <BrowserRouter>
       <ErrorBoundary>
       <ScrollToTop />
+      <NavigationLoader Animation={Animations1} duration={900} />
       <RouterRoutes>
         {/* Define your route here */}
         <Route path="/" element={<Homepage />} />
