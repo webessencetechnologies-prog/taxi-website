@@ -563,7 +563,7 @@ const FleetGallery = () => {
   return (
     <>
       <Helmet>
-        <title>Fleet Gallery - TaxiFlow | Premium Taxi Booking</title>
+        <title>Fleet Gallery - ShivSakti Travels | Premium Taxi Booking</title>
         <meta name="description" content="Browse our comprehensive fleet of premium vehicles. Compare specifications, view driver profiles, and book your perfect ride with transparent pricing." />
       </Helmet>
       <div className="min-h-screen bg-background">

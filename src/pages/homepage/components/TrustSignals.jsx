@@ -48,7 +48,7 @@ const TrustSignals = () => {
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_161f5d4cc-1763293647113.png",
     imageAlt: "Professional Hispanic man with short dark hair wearing navy suit and red tie with friendly expression",
     rating: 5,
-    comment: "I use TaxiFlow daily for my office commute. The same driver, same route, same price - no surprises. It's like having a personal chauffeur!",
+    comment: "I use ShivSakti Travels daily for my office commute. The same driver, same route, same price - no surprises. It's like having a personal chauffeur!",
     route: "Business District"
   },
   {
@@ -79,7 +79,7 @@ const TrustSignals = () => {
             <span className="text-sm font-medium text-primary">Trusted Service</span>
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Why Passengers Choose TaxiFlow
+            Why Passengers Choose ShivSakti Travels
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Safety, transparency, and reliability backed by certifications and real passenger experiences.

@@ -54,7 +54,7 @@ const Footer = () => {
                 <Icon name="Zap" size={24} color="var(--color-primary)" />
               </div>
               <span className="text-xl font-semibold font-accent text-foreground">
-                TaxiFlow
+                ShivSakti Travels
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -146,7 +146,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2025 TaxiFlow. All rights reserved.
+              © 2025 ShivSakti Travels. All rights reserved.
             </p>
           </div>
         </div>

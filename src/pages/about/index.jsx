@@ -19,10 +19,10 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - TaxiFlow | Transparent Journeys, Trusted Connections</title>
+        <title>About Us - ShivSakti Travels | Transparent Journeys, Trusted Connections</title>
         <meta
           name="description"
-          content="Learn about TaxiFlow's mission to transform urban mobility through transparency and personal connection. Discover our story, values, team, and commitment to excellence."
+          content="Learn about ShivSakti Travels's mission to transform urban mobility through transparency and personal connection. Discover our story, values, team, and commitment to excellence."
         />
         <meta
           name="keywords"

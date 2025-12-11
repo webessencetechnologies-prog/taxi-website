@@ -22,7 +22,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            At TaxiFlow, we believe every journey should be transparent, personal, and stress-free. We're transforming traditional ride-hailing into a relationship-driven service where you know your route, your price, and your driver.
+            At ShivSakti Travels, we believe every journey should be transparent, personal, and stress-free. We're transforming traditional ride-hailing into a relationship-driven service where you know your route, your price, and your driver.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 pt-6">

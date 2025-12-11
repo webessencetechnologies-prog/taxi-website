@@ -29,7 +29,7 @@ const LiveAvailability = () => {
     imageAlt: "Silver Toyota Camry sedan parked in urban setting with modern buildings and clear sky in background",
     passengers: 4,
     luggage: 3,
-    pricePerKm: "INR 15",
+    pricePerKm: "₹15",
     available: true,
     features: ["AC", "GPS", "Music System"]
   },
@@ -46,7 +46,7 @@ const LiveAvailability = () => {
     imageAlt: "Black Honda Accord sedan on city street with sleek design and modern headlights during evening",
     passengers: 4,
     luggage: 3,
-    pricePerKm: "INR 17",
+    pricePerKm: "₹17",
     available: true,
     features: ["AC", "WiFi", "USB Charging"]
   },
@@ -63,7 +63,7 @@ const LiveAvailability = () => {
     imageAlt: "White Ford Explorer SUV parked on mountain road with scenic landscape and pine trees in background",
     passengers: 7,
     luggage: 5,
-    pricePerKm: "INR 22",
+    pricePerKm: "₹22",
     available: true,
     features: ["AC", "GPS", "Child Seats", "Extra Space"]
   },
@@ -80,7 +80,7 @@ const LiveAvailability = () => {
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 4,
     luggage: 3,
-    pricePerKm: "INR 32",
+    pricePerKm: "₹32",
     available: true,
     features: ["Premium AC", "Leather Seats", "Champagne Bar", "Privacy Glass"]
   }];

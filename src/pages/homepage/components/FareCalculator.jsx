@@ -102,11 +102,11 @@ const FareCalculator = () => {
                 <div className="space-y-3 mb-4">
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-muted-foreground">Base Fare</span>
-                    <span className="font-medium text-foreground">INR {calculatedFare?.baseFare?.toFixed(2)}</span>
+                    <span className="font-medium text-foreground">₹{calculatedFare?.baseFare?.toFixed(2)}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-muted-foreground">Distance ({calculatedFare?.distance})</span>
-                    <span className="font-medium text-foreground">INR {calculatedFare?.distanceFare?.toFixed(2)}</span>
+                    <span className="font-medium text-foreground">₹{calculatedFare?.distanceFare?.toFixed(2)}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
                     <span className="text-muted-foreground">Vehicle Type</span>
@@ -116,7 +116,7 @@ const FareCalculator = () => {
 
                 <div className="flex items-center justify-between pt-4 border-t border-border">
                   <span className="text-lg font-semibold text-foreground">Total Fare</span>
-                  <span className="text-3xl font-bold text-primary">INR  {calculatedFare?.total?.toFixed(2)}</span>
+                  <span className="text-3xl font-bold text-primary">₹ {calculatedFare?.total?.toFixed(2)}</span>
                 </div>
 
                 <div className="mt-6 p-4 bg-primary/10 rounded-lg">

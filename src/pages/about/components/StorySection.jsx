@@ -39,7 +39,7 @@ const StorySection = () => {
             Our Story
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            From a small fleet with big dreams to a trusted name in urban transportation, TaxiFlow has always prioritized people over profits and relationships over transactions.
+            From a small fleet with big dreams to a trusted name in urban transportation, ShivSakti Travels has always prioritized people over profits and relationships over transactions.
           </p>
         </div>
 

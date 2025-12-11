@@ -30,7 +30,7 @@ const Header = () => {
               <Icon name="Zap" size={24} color="var(--color-primary)" />
             </div>
             <span className="text-xl font-semibold font-accent text-foreground">
-              TaxiFlow
+              ShivSakti Travels
             </span>
           </Link>
 

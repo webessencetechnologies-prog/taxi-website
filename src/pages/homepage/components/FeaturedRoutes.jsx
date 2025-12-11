@@ -13,11 +13,11 @@ const FeaturedRoutes = () => {
     to: "Ahmedabad Airport",
     distance: "50km/Day",
     duration: "3hr/Day",
-    price: "INR 550",
+    price: "₹550",
     image: "https://images.unsplash.com/photo-1621331235693-c5662b96698e",
     imageAlt: "Modern international airport terminal with glass facade and departure area during daytime with clear blue sky",
     popular: true,
-    savings: "Save INR 150",
+    savings: "Save ₹150",
     features: ["Fast Track", "Luggage Assistance", "Flight Monitoring"]
   },
   {
@@ -27,7 +27,7 @@ const FeaturedRoutes = () => {
     to: "Any City",
     distance: "300km/Day",
     duration: "6Hr/Day",
-    price: "INR 3500*",
+    price: "₹3500*",
     image: "https://images.unsplash.com/photo-1470606390217-9576f92853cd",
     imageAlt: "Modern downtown business district with tall glass skyscrapers and corporate office buildings reflecting sunlight",
     popular: true,
@@ -41,7 +41,7 @@ const FeaturedRoutes = () => {
     to: "Any Place",
     distance: "60km/Day",
     duration: "4hr/Day",
-    price: "INR 1500",
+    price: "₹1500",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_115f75d78-1764715712431.png",
     imageAlt: "Large modern shopping mall exterior with multiple floors glass windows and busy parking area with shoppers",
     popular: false,
@@ -55,11 +55,11 @@ const FeaturedRoutes = () => {
     to: "Ahm Railway Station",
     distance: "50km/day",
     duration: "3hr/day",
-    price: "INR 450",
+    price: "₹450",
     image: "https://images.unsplash.com/photo-1627220523602-143c92e35a74",
     imageAlt: "Historic central train station building with classic architecture red brick facade and main entrance with travelers",
     popular: true,
-    savings: "Save INR 100",
+    savings: "Save ₹100",
     features: ["Luggage Support", "Schedule Coordination", "Direct Route"]
   }];
 

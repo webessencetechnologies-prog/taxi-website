@@ -71,7 +71,7 @@ const ContactHub = () => {
 
   const faqData = [
     {
-      question: 'How do I book a taxi through TaxiFlow?',
+      question: 'How do I book a taxi through ShivSakti Travels?',
       answer: 'Booking is simple! Select your route from our Route Planner, browse available vehicles in our Fleet Gallery, compare pricing, and contact your preferred driver directly via WhatsApp or phone. You can also use our quick booking feature on the homepage for instant reservations.'
     },
     {
@@ -92,7 +92,7 @@ const ContactHub = () => {
     },
     {
       question: 'Are your drivers verified and licensed?',
-      answer: 'Absolutely! All TaxiFlow drivers undergo thorough background checks, hold valid commercial driving licenses, and complete our safety training program. You can view driver profiles, ratings, and certifications in our Fleet Gallery.'
+      answer: 'Absolutely! All ShivSakti Travels drivers undergo thorough background checks, hold valid commercial driving licenses, and complete our safety training program. You can view driver profiles, ratings, and certifications in our Fleet Gallery.'
     },
     {
       question: 'Do you offer airport transfer services?',

@@ -33,7 +33,7 @@ const MissionSection = () => {
             Our Mission & Values
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We're on a mission to eliminate the uncertainty and impersonal nature of ride-booking by creating direct relationships between passengers and drivers. TaxiFlow is the artisanal approach to taxi services—where every ride matters.
+            We're on a mission to eliminate the uncertainty and impersonal nature of ride-booking by creating direct relationships between passengers and drivers. ShivSakti Travels is the artisanal approach to taxi services—where every ride matters.
           </p>
         </div>
 
