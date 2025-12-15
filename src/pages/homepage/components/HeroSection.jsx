@@ -163,7 +163,7 @@ const HeroSection = ({ onRouteSelect, onBookNow }) => {
                   size="sm"
                   iconName="Phone"
                   iconPosition="left"
-                  onClick={() => window.location.href = 'tel:+1234567890'}
+                  onClick={() => window.location.href = 'tel:++919409713448'}
                 >
                   Call Now
                 </Button>
@@ -172,7 +172,7 @@ const HeroSection = ({ onRouteSelect, onBookNow }) => {
                   size="sm"
                   iconName="MessageCircle"
                   iconPosition="left"
-                  onClick={() => window.open('https://wa.me/1234567890', '_blank')}
+                  onClick={() => window.open('https://wa.me/+919409713448', '_blank')}
                 >
                   WhatsApp
                 </Button>

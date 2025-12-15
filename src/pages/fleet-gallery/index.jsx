@@ -46,8 +46,8 @@ const FleetGallery = () => {
       avatarAlt: "Professional headshot of Hispanic male driver with short black hair wearing navy blue suit and warm smile",
       rating: 4.9,
       trips: 1250,
-      phone: "+1234567890",
-      whatsapp: "1234567890",
+      phone: "++919409713448",
+      whatsapp: "+919409713448",
       experience: "8 years of professional driving",
       bio: "Experienced driver specializing in airport transfers and city tours. Known for punctuality and excellent customer service.",
       specialties: ["Airport Transfers", "City Tours", "Corporate Travel"]
@@ -680,7 +680,7 @@ const FleetGallery = () => {
                         size="lg"
                         iconName="Phone"
                         iconPosition="left"
-                        onClick={() => window.location.href = 'tel:+1234567890'}>
+                        onClick={() => window.location.href = 'tel:++919409713448'}>
 
                         Call Now
                       </Button>
@@ -689,7 +689,7 @@ const FleetGallery = () => {
                         size="lg"
                         iconName="MessageCircle"
                         iconPosition="left"
-                        onClick={() => window.open('https://wa.me/1234567890', '_blank')}>
+                        onClick={() => window.open('https://wa.me/+919409713448', '_blank')}>
 
                         WhatsApp
                       </Button>

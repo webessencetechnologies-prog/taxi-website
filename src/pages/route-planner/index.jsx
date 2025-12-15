@@ -475,16 +475,16 @@ const RoutePlanner = () => {
                     size="lg"
                     iconName="Phone"
                     iconPosition="left"
-                    onClick={() => window.location.href = 'tel:+1234567890'}>
+                    onClick={() => window.location.href = 'tel:++919409713448'}>
 
-                    Call Now: +1 (234) 567-890
+                    Call Now: +919409713448
                   </Button>
                   <Button
                     variant="outline"
                     size="lg"
                     iconName="MessageCircle"
                     iconPosition="left"
-                    onClick={() => window.open('https://wa.me/1234567890', '_blank')}>
+                    onClick={() => window.open('https://wa.me/+919409713448', '_blank')}>
 
                     WhatsApp Support
                   </Button>

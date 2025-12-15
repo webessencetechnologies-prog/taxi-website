@@ -149,10 +149,10 @@ const PricingDashboard = () => {
                       </div>
                     </div>
                     <a
-                      href="tel:+1234567890"
+                      href="tel:++919409713448"
                       className="text-primary hover:text-primary/80 font-semibold"
                     >
-                      +1 (234) 567-890
+                      +919409713448
                     </a>
                   </div>
 
@@ -167,7 +167,7 @@ const PricingDashboard = () => {
                       </div>
                     </div>
                     <button
-                      onClick={() => window.open('https://wa.me/1234567890', '_blank')}
+                      onClick={() => window.open('https://wa.me/+919409713448', '_blank')}
                       className="text-primary hover:text-primary/80 font-semibold"
                     >
                       Chat Now

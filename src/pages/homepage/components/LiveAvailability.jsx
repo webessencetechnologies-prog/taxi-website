@@ -18,72 +18,209 @@ const LiveAvailability = () => {
   const availableCars = [
   {
     id: 1,
-    name: "Toyota Camry",
+    name: "Swift Desire",
     category: "sedan",
     driver: "Michael Rodriguez",
     driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1ce7e2d88-1763293689637.png",
     driverImageAlt: "Professional Hispanic male driver with warm smile wearing formal black suit and white shirt",
     rating: 4.9,
-    trips: 342,
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_15d038400-1764831418921.png",
+    trips: 139,
+    image: "https://unsplash.com/photos/blue-bmw-m-3-on-road-during-daytime-DpGNVXCH5_8",
     imageAlt: "Silver Toyota Camry sedan parked in urban setting with modern buildings and clear sky in background",
     passengers: 4,
-    luggage: 3,
-    pricePerKm: "₹15",
+    luggage: 2,
+    pricePerKm: "₹11",
     available: true,
     features: ["AC", "GPS", "Music System"]
   },
   {
     id: 2,
-    name: "Honda Accord",
+    name: "Hyundai Aura",
     category: "sedan",
     driver: "Sarah Johnson",
     driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1bd12627e-1763299084676.png",
     driverImageAlt: "Professional Caucasian female driver with friendly expression wearing navy blue blazer and white blouse",
     rating: 4.8,
-    trips: 289,
-    image: "https://images.unsplash.com/photo-1734205496756-4784ca64a194",
+    trips: 187,
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Hyundai_Aura_front.png",
     imageAlt: "Black Honda Accord sedan on city street with sleek design and modern headlights during evening",
     passengers: 4,
     luggage: 3,
-    pricePerKm: "₹17",
+    pricePerKm: "₹11",
     available: true,
-    features: ["AC", "WiFi", "USB Charging"]
+    features: ["AC", "GPS", "USB Charging"]
   },
   {
     id: 3,
-    name: "Ford Explorer",
-    category: "suv",
+    name: "Hyundai Xcent",
+    category: "sedan",
     driver: "James Wilson",
     driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_18d854688-1763295573707.png",
     driverImageAlt: "Professional African American male driver with confident smile wearing gray suit and blue tie",
     rating: 4.9,
-    trips: 412,
-    image: "https://images.unsplash.com/photo-1681580481786-475fc6e7dc5c",
+    trips: 42,
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hyundai_Xcent_2017.png",
     imageAlt: "White Ford Explorer SUV parked on mountain road with scenic landscape and pine trees in background",
-    passengers: 7,
-    luggage: 5,
-    pricePerKm: "₹22",
+    passengers: 4,
+    luggage: 2,
+    pricePerKm: "₹11",
     available: true,
-    features: ["AC", "GPS", "Child Seats", "Extra Space"]
+    features: ["AC", "GPS",]
   },
   {
     id: 4,
-    name: "Mercedes S-Class",
-    category: "luxury",
+    name: "Honda Amaze",
+    category: "sedan",
     driver: "David Chen",
     driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1448d8a2b-1763299084005.png",
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 156,
-    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Honda_Amaze_2018.png",
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 4,
-    luggage: 3,
-    pricePerKm: "₹32",
+    luggage: 2,
+    pricePerKm: "₹11",
     available: true,
-    features: ["Premium AC", "Leather Seats", "Champagne Bar", "Privacy Glass"]
-  }];
+    features: ["Premium AC", "Leather Seats"]
+  },
+  {
+    id: 5,
+    name: "Maruti Ertiga",
+    category: "suv",
+    driver: "Michael Rodriguez",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1ce7e2d88-1763293689637.png",
+    driverImageAlt: "Professional Hispanic male driver with warm smile wearing formal black suit and white shirt",
+    rating: 4.9,
+    trips: 139,
+    image: "https://img.rocket.new/generatedImages/rocket_gen_img_15d038400-1764831418921.png",
+    imageAlt: "Silver Toyota Camry sedan parked in urban setting with modern buildings and clear sky in background",
+    passengers: 6,
+    luggage: 4,
+    pricePerKm: "₹14",
+    available: true,
+    features: ["AC", "GPS", "Music System"]
+  },
+  {
+    id: 6,
+    name: "Kia Carness",
+    category: "suv",
+    driver: "Sarah Johnson",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1bd12627e-1763299084676.png",
+    driverImageAlt: "Professional Caucasian female driver with friendly expression wearing navy blue blazer and white blouse",
+    rating: 4.8,
+    trips: 187,
+    image: "https://images.unsplash.com/photo-1734205496756-4784ca64a194",
+    imageAlt: "Black Honda Accord sedan on city street with sleek design and modern headlights during evening",
+    passengers: 6,
+    luggage: 4,
+    pricePerKm: "₹16",
+    available: true,
+    features: ["AC", "GPS", "USB Charging"]
+  },
+  {
+    id: 7,
+    name: "Toyota Innova",
+    category: "suv",
+    driver: "James Wilson",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_18d854688-1763295573707.png",
+    driverImageAlt: "Professional African American male driver with confident smile wearing gray suit and blue tie",
+    rating: 4.9,
+    trips: 42,
+    image: "https://images.unsplash.com/photo-1681580481786-475fc6e7dc5c",
+    imageAlt: "White Ford Explorer SUV parked on mountain road with scenic landscape and pine trees in background",
+    passengers: 6,
+    luggage: 4,
+    pricePerKm: "₹16",
+    available: true,
+    features: ["AC", "GPS", "Extra Space", "Premium Seats"]
+  },
+  {
+    id: 8,
+    name: "Toyota Innova Crysta",
+    category: "suv",
+    driver: "David Chen",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1448d8a2b-1763299084005.png",
+    driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
+    rating: 5.0,
+    trips: 53,
+    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
+    passengers: 7,
+    luggage: 5,
+    pricePerKm: "₹20",
+    available: true,
+    features: ["Premium AC", "Leather Seats"]
+  },
+  {
+    id: 9,
+    name: "Toofan",
+    category: "luxury",
+    driver: "David Chen",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1448d8a2b-1763299084005.png",
+    driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
+    rating: 5.0,
+    trips: 53,
+    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
+    passengers: 10,
+    luggage: 5,
+    pricePerKm: "₹20",
+    available: true,
+    features: ["Premium AC", "Leather Seats"]
+  },
+  {
+    id: 10,
+    name: "Tempo Traveller",
+    category: "luxury",
+    driver: "David Chen",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1448d8a2b-1763299084005.png",
+    driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
+    rating: 5.0,
+    trips: 53,
+    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
+    passengers: 10,
+    luggage: 5,
+    pricePerKm: "₹23",
+    available: true,
+    features: ["Premium AC", "Leather Seats"]
+  },
+  {
+    id: 11,
+    name: "Tempo Traveller ( 12 Seater )",
+    category: "luxury",
+    driver: "David Chen",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1448d8a2b-1763299084005.png",
+    driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
+    rating: 5.0,
+    trips: 53,
+    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
+    passengers: 12,
+    luggage: 6,
+    pricePerKm: "₹26",
+    available: true,
+    features: ["Premium AC", "Leather Seats"]
+  },
+  {
+    id: 12,
+    name: "Forse Urbania",
+    category: "luxury",
+    driver: "David Chen",
+    driverImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1448d8a2b-1763299084005.png",
+    driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
+    rating: 5.0,
+    trips: 53,
+    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
+    passengers: 17,
+    luggage: 10,
+    pricePerKm: "₹35",
+    available: true,
+    features: ["Premium AC", "Leather Seats"]
+  },
+];
 
 
   const filteredCars = activeTab === 'all' ?
@@ -208,14 +345,14 @@ const LiveAvailability = () => {
                     <Button
                     variant="outline"
                     size="icon"
-                    onClick={() => window.location.href = 'tel:+1234567890'}>
+                    onClick={() => window.location.href = 'tel:++919409713448'}>
 
                       <Icon name="Phone" size={18} />
                     </Button>
                     <Button
                     variant="default"
                     size="icon"
-                    onClick={() => window.open('https://wa.me/1234567890', '_blank')}>
+                    onClick={() => window.open('https://wa.me/+919409713448', '_blank')}>
 
                       <Icon name="MessageCircle" size={18} />
                     </Button>

@@ -157,19 +157,19 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={18} color="var(--color-primary)" />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:++919409713448"
                   className="text-sm text-foreground hover:text-primary transition-colors"
                 >
-                  +1 (234) 567-890
+                  +919409713448
                 </a>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Mail" size={18} color="var(--color-primary)" />
                 <a
-                  href="mailto:info@taxiflow.com"
+                  href="mailto:rajputprabhunath@gmail.com"
                   className="text-sm text-foreground hover:text-primary transition-colors"
                 >
-                  info@taxiflow.com
+                  rajputprabhunath@gmail.com
                 </a>
               </div>
             </div>
@@ -179,7 +179,7 @@ const Footer = () => {
                 size="sm"
                 iconName="Phone"
                 iconPosition="left"
-                onClick={() => window.location.href = 'tel:+1234567890'}
+                onClick={() => window.location.href = 'tel:++919409713448'}
               >
                 Call Now
               </Button>
@@ -188,7 +188,7 @@ const Footer = () => {
                 size="sm"
                 iconName="MessageCircle"
                 iconPosition="left"
-                onClick={() => window.open('https://wa.me/1234567890', '_blank')}
+                onClick={() => window.open('https://wa.me/+919409713448', '_blank')}
               >
                 WhatsApp
               </Button>

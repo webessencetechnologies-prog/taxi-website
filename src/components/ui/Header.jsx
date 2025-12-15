@@ -57,7 +57,7 @@ const Header = () => {
               size="default"
               iconName="Phone"
               iconPosition="left"
-              onClick={() => window.location.href = 'tel:+1234567890'}
+              onClick={() => window.location.href = 'tel:++919409713448'}
             >
               Call Now
             </Button>
@@ -66,7 +66,7 @@ const Header = () => {
               size="default"
               iconName="MessageCircle"
               iconPosition="left"
-              onClick={() => window.open('https://wa.me/1234567890', '_blank')}
+              onClick={() => window.open('https://wa.me/+919409713448', '_blank')}
             >
               WhatsApp
             </Button>
@@ -112,7 +112,7 @@ const Header = () => {
                   iconName="Phone"
                   iconPosition="left"
                   onClick={() => {
-                    window.location.href = 'tel:+1234567890';
+                    window.location.href = 'tel:++919409713448';
                     toggleMobileMenu();
                   }}
                 >
@@ -125,7 +125,7 @@ const Header = () => {
                   iconName="MessageCircle"
                   iconPosition="left"
                   onClick={() => {
-                    window.open('https://wa.me/1234567890', '_blank');
+                    window.open('https://wa.me/+919409713448', '_blank');
                     toggleMobileMenu();
                   }}
                 >

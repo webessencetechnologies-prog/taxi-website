@@ -9,15 +9,15 @@ const CTASection = () => {
       icon: "Phone",
       title: "Call Now",
       description: "Speak directly with our dispatch team",
-      action: () => window.location.href = 'tel:+1234567890',
-      buttonText: "Call +1 (234) 567-890",
+      action: () => window.location.href = 'tel:++919409713448',
+      buttonText: "Call +919409713448",
       variant: "outline"
     },
     {
       icon: "MessageCircle",
       title: "WhatsApp",
       description: "Quick booking via instant messaging",
-      action: () => window.open('https://wa.me/1234567890', '_blank'),
+      action: () => window.open('https://wa.me/+919409713448', '_blank'),
       buttonText: "Open WhatsApp",
       variant: "default"
     },
@@ -25,7 +25,7 @@ const CTASection = () => {
       icon: "Mail",
       title: "Email Us",
       description: "For inquiries and special requests",
-      action: () => window.location.href = 'mailto:info@taxiflow.com',
+      action: () => window.location.href = 'mailto:rajputprabhunath@gmail.com',
       buttonText: "Send Email",
       variant: "outline"
     }

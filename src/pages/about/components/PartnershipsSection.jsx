@@ -154,11 +154,11 @@ const PartnershipsSection = () => {
               <span>partnerships@taxiflow.com</span>
             </a>
             <a
-              href="tel:+1234567890"
+              href="tel:++919409713448"
               className="inline-flex items-center justify-center space-x-2 bg-background border border-border text-foreground px-6 py-3 rounded-lg font-medium hover:bg-muted transition-colors">
 
               <Icon name="Phone" size={20} />
-              <span>+1 (234) 567-890</span>
+              <span>+919409713448</span>
             </a>
           </div>
         </div>

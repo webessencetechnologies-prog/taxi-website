@@ -16,7 +16,7 @@ const ContactHub = () => {
       icon: 'MessageCircle',
       title: 'WhatsApp Support',
       description: 'Instant messaging with our support team. Get quick responses to your booking questions and route inquiries.',
-      action: () => window.open('https://wa.me/1234567890', '_blank'),
+      action: () => window.open('https://wa.me/+919409713448', '_blank'),
       actionLabel: 'Open WhatsApp',
       variant: 'primary'
     },
@@ -24,7 +24,7 @@ const ContactHub = () => {
       icon: 'Phone',
       title: 'Call Us Directly',
       description: 'Speak with our customer service team. Available 24/7 for urgent booking assistance and support.',
-      action: () => window.location.href = 'tel:+1234567890',
+      action: () => window.location.href = 'tel:++919409713448',
       actionLabel: 'Call Now',
       variant: 'success'
     },
@@ -116,7 +116,7 @@ const ContactHub = () => {
     {
       name: 'Main Office',
       address: '123 Transit Avenue, Downtown District, New York, NY 10001',
-      phone: '+1 (234) 567-890',
+      phone: '+919409713448',
       email: 'main@taxiflow.com',
       hours: 'Mon-Fri: 8 AM - 8 PM, Sat-Sun: 9 AM - 6 PM'
     },
