@@ -64,70 +64,7 @@ const RoutePlanner = () => {
     landmarks: ["University Gate", "Innovation Center", "Tech Hub Plaza"],
     alternativeRoutes: []
   },
-  {
-    id: 4,
-    name: "Historic District to Convention Center",
-    description: "Downtown route passing major landmarks and hotels",
-    distance: "12.3 km",
-    duration: "18-22 mins",
-    estimatedFare: "$22-28",
-    difficulty: "Moderate",
-    traffic: "Moderate",
-    landmarks: ["Old Town Square", "Museum Row", "Convention Plaza"],
-    alternativeRoutes: []
-
-  },
-  {
-    id: 5,
-    name: "Suburban Mall to Downtown Shopping",
-    description: "Cross-city route connecting major shopping districts",
-    distance: "22.7 km",
-    duration: "30-38 mins",
-    estimatedFare: "$38-48",
-    difficulty: "Moderate",
-    traffic: "Heavy",
-    landmarks: ["Westfield Mall", "Central Market", "Fashion District"],
-    alternativeRoutes: []
-
-  },
-  {
-    id: 6,
-    name: "Hospital District to Medical Center",
-    description: "Priority route for medical appointments and emergencies",
-    distance: "8.5 km",
-    duration: "12-15 mins",
-    estimatedFare: "$18-22",
-    difficulty: "Easy",
-    traffic: "Light",
-    landmarks: ["General Hospital", "Medical Plaza", "Health Center"],
-    alternativeRoutes: []
-  },
-  {
-    id: 7,
-    name: "Train Station to Business Park",
-    description: "Commuter route connecting transit hub to corporate offices",
-    distance: "19.4 km",
-    duration: "25-32 mins",
-    estimatedFare: "$32-40",
-    difficulty: "Moderate",
-    traffic: "Heavy",
-    landmarks: ["Central Station", "Corporate Plaza", "Business Tower"],
-    alternativeRoutes: []
-
-  },
-  {
-    id: 8,
-    name: "Mountain View to Valley Center",
-    description: "Scenic route through hills with panoramic city views",
-    distance: "32.1 km",
-    duration: "45-55 mins",
-    estimatedFare: "$55-68",
-    difficulty: "Challenging",
-    traffic: "Light",
-    landmarks: ["Hilltop Viewpoint", "Valley Overlook", "City Vista"],
-    alternativeRoutes: []
-
-  }];
+];
 
 
   const popularRoutes = routes?.slice(0, 5);
