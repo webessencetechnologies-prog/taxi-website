@@ -31,7 +31,7 @@ const Homepage = () => {
   return (
     <>
       <Helmet>
-        <title>ShivSakti Travels - Transparent Journeys, Trusted Connections | Premium Taxi Booking</title>
+        <title>Shivru Cabs - Transparent Journeys, Trusted Connections | Premium Taxi Booking</title>
         <meta 
           name="description" 
           content="Book your ride with complete transparency. Know your route, know your price, know your driver. Premium taxi service with verified drivers and no hidden fees." 
@@ -40,7 +40,7 @@ const Homepage = () => {
           name="keywords" 
           content="taxi booking, transparent pricing, verified drivers, airport transfer, city taxi, ride booking, professional drivers" 
         />
-        <meta property="og:title" content="ShivSakti Travels - Transparent Taxi Booking Service" />
+        <meta property="og:title" content="Shivru Cabs - Transparent Taxi Booking Service" />
         <meta 
           property="og:description" 
           content="Experience ride-hailing with human touch and complete pricing clarity. Book instantly with real-time availability." 

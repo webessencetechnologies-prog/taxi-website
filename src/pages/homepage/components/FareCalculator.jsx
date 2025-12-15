@@ -169,20 +169,20 @@ const FareCalculator = () => {
   const calculateFare = () => {
     if (!sourceCity || !destinationCity || !selectedCar) return;
 
-    console.log('selected car ', selectedCar);
+    console.log("selected car ", selectedCar);
 
     const destinationCityName = gujaratCitiesOptions.find(
-    city => city.value === destinationCity
-  );
+      (city) => city.value === destinationCity
+    );
 
     const sourceCityName = gujaratCitiesOptions.find(
-    city => city.value === sourceCity
-  );
-    console.log('destination ', destinationCityName)
-    console.log("source ", sourceCityName)
+      (city) => city.value === sourceCity
+    );
+    console.log("destination ", destinationCityName);
+    console.log("source ", sourceCityName);
 
     const distance = calculateDistanceKm(sourceCity, destinationCity);
-    console.log('distance ', distance)
+    console.log("distance ", distance);
 
     let roundOffDistance = Math.round(distance);
 
@@ -311,7 +311,9 @@ const FareCalculator = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-muted-foreground">Destination City</span>
+                    <span className="text-muted-foreground">
+                      Destination City
+                    </span>
                     <span className="font-medium text-foreground">
                       {calculatedFare?.destinationCityName}
                     </span>
@@ -323,10 +325,10 @@ const FareCalculator = () => {
                     </span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-muted-foreground">Minimum Kilometers</span>
-                    <span className="font-medium text-foreground">
-                      300 KM
+                    <span className="text-muted-foreground">
+                      Minimum Kilometers
                     </span>
+                    <span className="font-medium text-foreground">300 KM</span>
                   </div>
                 </div>
 
@@ -345,8 +347,10 @@ const FareCalculator = () => {
                     <div className="text-sm text-foreground">
                       <p className="font-medium mb-1">Price Guarantee</p>
                       <p className="text-muted-foreground">
-                        This is your final price. No surge pricing, no hidden
-                        fees, no surprises at the end of your journey.
+                        The displayed fare covers your trip cost. Any tolls,
+                        parking fees, border/state taxes, or driver night stay
+                        charges (DP per night) will be additional and payable
+                        during the journey.
                       </p>
                     </div>
                   </div>

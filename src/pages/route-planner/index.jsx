@@ -199,8 +199,8 @@ const RoutePlanner = () => {
   return (
     <>
       <Helmet>
-        <title>Route Planner - ShivSakti Travels | Plan Your Journey</title>
-        <meta name="description" content="Explore ShivSakti Travels's comprehensive route network with interactive maps, distance calculations, and transparent fare estimates. Plan your perfect journey today." />
+        <title>Route Planner - Shivru Cabs | Plan Your Journey</title>
+        <meta name="description" content="Explore Shivru Cabs's comprehensive route network with interactive maps, distance calculations, and transparent fare estimates. Plan your perfect journey today." />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -373,7 +373,7 @@ const RoutePlanner = () => {
                   Success Stories
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Real experiences from passengers who trusted ShivSakti Travels for their journeys
+                  Real experiences from passengers who trusted Shivru Cabs for their journeys
                 </p>
               </div>
 

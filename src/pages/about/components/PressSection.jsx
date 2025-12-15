@@ -5,21 +5,21 @@ const PressSection = () => {
   const pressReleases = [
     {
       date: "December 2024",
-      title: "ShivSakti Travels Expands Fleet with 20 New Eco-Friendly Vehicles",
+      title: "Shivru Cabs Expands Fleet with 20 New Eco-Friendly Vehicles",
       excerpt: "Leading the way in sustainable urban transportation with significant investment in hybrid and electric vehicles.",
       source: "Business Wire",
       link: "#"
     },
     {
       date: "November 2024",
-      title: "Partnership Announcement: TechCorp Solutions Chooses ShivSakti Travels",
-      excerpt: "Major technology company selects ShivSakti Travels as exclusive corporate transportation partner for 500+ employees.",
+      title: "Partnership Announcement: TechCorp Solutions Chooses Shivru Cabs",
+      excerpt: "Major technology company selects Shivru Cabs as exclusive corporate transportation partner for 500+ employees.",
       source: "Tech News Daily",
       link: "#"
     },
     {
       date: "October 2024",
-      title: "ShivSakti Travels Achieves 10,000 Satisfied Passengers Milestone",
+      title: "Shivru Cabs Achieves 10,000 Satisfied Passengers Milestone",
       excerpt: "Celebrating exceptional growth while maintaining 5-star service ratings and customer satisfaction.",
       source: "City Business Journal",
       link: "#"
@@ -27,7 +27,7 @@ const PressSection = () => {
     {
       date: "September 2024",
       title: "Innovation in Customer Experience: Direct Driver Communication",
-      excerpt: "ShivSakti Travels introduces revolutionary transparent pricing and direct driver contact features.",
+      excerpt: "Shivru Cabs introduces revolutionary transparent pricing and direct driver contact features.",
       source: "Transportation Today",
       link: "#"
     }
@@ -37,7 +37,7 @@ const PressSection = () => {
     {
       icon: "FileText",
       title: "Company Fact Sheet",
-      description: "Comprehensive overview of ShivSakti Travels services, fleet, and achievements.",
+      description: "Comprehensive overview of Shivru Cabs services, fleet, and achievements.",
       format: "PDF"
     },
     {
@@ -68,7 +68,7 @@ const PressSection = () => {
             Press & Media
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Stay updated with the latest news, announcements, and media coverage about ShivSakti Travels.
+            Stay updated with the latest news, announcements, and media coverage about Shivru Cabs.
           </p>
         </div>
 

@@ -9,7 +9,7 @@ const TeamSection = () => {
     role: "Founder & CEO",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1f383ff29-1763295330729.png",
     imageAlt: "Professional headshot of Hispanic male founder with short dark hair wearing navy blue suit and white shirt with confident smile",
-    bio: "Former transportation industry executive with 15 years of experience. Michael founded ShivSakti Travels with a vision to bring transparency and personal connection back to urban mobility.",
+    bio: "Former transportation industry executive with 15 years of experience. Michael founded Shivru Cabs with a vision to bring transparency and personal connection back to urban mobility.",
     linkedin: "https://linkedin.com"
   },
   {

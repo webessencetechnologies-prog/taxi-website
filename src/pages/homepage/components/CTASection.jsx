@@ -42,7 +42,7 @@ const CTASection = () => {
                   <div className="w-12 h-12 bg-primary-foreground/20 rounded-lg flex items-center justify-center">
                     <Icon name="Zap" size={24} color="currentColor" />
                   </div>
-                  <span className="text-2xl font-bold font-accent">ShivSakti Travels</span>
+                  <span className="text-2xl font-bold font-accent">Shivru Cabs</span>
                 </div>
 
                 <h2 className="text-3xl lg:text-4xl font-bold mb-4">

@@ -40,7 +40,7 @@ const InteractiveMap = ({ selectedRoute, onRouteHover }) => {
           width="100%"
           height="100%"
           loading="lazy"
-          title="ShivSakti Travels Route Network Map"
+          title="Shivru Cabs Route Network Map"
           referrerPolicy="no-referrer-when-downgrade"
           src="https://www.google.com/maps?q=40.7128,-74.0060&z=12&output=embed"
           className="w-full h-full"
