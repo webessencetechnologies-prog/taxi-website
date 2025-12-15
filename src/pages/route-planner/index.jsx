@@ -29,40 +29,36 @@ const RoutePlanner = () => {
   const routes = [
   {
     id: 1,
-    name: "Downtown to Airport Express",
-    description: "Direct route via Highway 101 with minimal stops",
-    distance: "28.5 km",
-    duration: "35-45 mins",
-    estimatedFare: "$45-55",
+    name: "Ahmedabad to Dwarka",
+    description: "Direct routes with minimal stops and saving tolls",
+    distance: "449 KM",
+    duration: "9-10 hrs",
+    estimatedFare: "7500 - 12500 INR",
     difficulty: "Easy",
     traffic: "Moderate",
     landmarks: ["City Center", "Business District", "Airport Terminal"],
-    alternativeRoutes: [
-    { name: "Scenic Coastal Route", duration: "50 mins", fare: "$50-60" },
-    { name: "Express Toll Road", duration: "30 mins", fare: "$55-65" }]
-
+    alternativeRoutes: []
   },
   {
     id: 2,
-    name: "City Center to Beach Boulevard",
+    name: "Ahmedabad to Somnath",
     description: "Scenic coastal drive with ocean views",
-    distance: "18.2 km",
-    duration: "25-30 mins",
-    estimatedFare: "$30-38",
+    distance: "425 KM",
+    duration: "9-10 hrs",
+    estimatedFare: "7500 - 12500 INR",
     difficulty: "Easy",
     traffic: "Light",
     landmarks: ["Marina Bay", "Coastal Park", "Beach Pier"],
-    alternativeRoutes: [
-    { name: "Inland Highway", duration: "20 mins", fare: "$25-32" }]
+    alternativeRoutes: []
 
   },
   {
     id: 3,
-    name: "University Campus to Tech Park",
+    name: "Ahmedabad to Diu",
     description: "Route through innovation district with multiple tech hubs",
-    distance: "15.8 km",
-    duration: "20-25 mins",
-    estimatedFare: "$25-32",
+    distance: "360 KM",
+    duration: "8-10 hrs",
+    estimatedFare: "6500 to 12000 INR",
     difficulty: "Easy",
     traffic: "Light",
     landmarks: ["University Gate", "Innovation Center", "Tech Hub Plaza"],
@@ -78,8 +74,7 @@ const RoutePlanner = () => {
     difficulty: "Moderate",
     traffic: "Moderate",
     landmarks: ["Old Town Square", "Museum Row", "Convention Plaza"],
-    alternativeRoutes: [
-    { name: "Riverside Route", duration: "25 mins", fare: "$24-30" }]
+    alternativeRoutes: []
 
   },
   {
@@ -92,8 +87,7 @@ const RoutePlanner = () => {
     difficulty: "Moderate",
     traffic: "Heavy",
     landmarks: ["Westfield Mall", "Central Market", "Fashion District"],
-    alternativeRoutes: [
-    { name: "Express Highway", duration: "28 mins", fare: "$42-52" }]
+    alternativeRoutes: []
 
   },
   {
@@ -118,8 +112,7 @@ const RoutePlanner = () => {
     difficulty: "Moderate",
     traffic: "Heavy",
     landmarks: ["Central Station", "Corporate Plaza", "Business Tower"],
-    alternativeRoutes: [
-    { name: "Bypass Route", duration: "30 mins", fare: "$35-43" }]
+    alternativeRoutes: []
 
   },
   {
@@ -132,8 +125,7 @@ const RoutePlanner = () => {
     difficulty: "Challenging",
     traffic: "Light",
     landmarks: ["Hilltop Viewpoint", "Valley Overlook", "City Vista"],
-    alternativeRoutes: [
-    { name: "Valley Floor Route", duration: "40 mins", fare: "$48-58" }]
+    alternativeRoutes: []
 
   }];
 
