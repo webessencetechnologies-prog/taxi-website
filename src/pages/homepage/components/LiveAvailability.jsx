@@ -4,9 +4,20 @@ import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
 import Button from '../../../components/ui/Button';
 
+import swiftDesire from './assets/swift_desire.png'
+import hyundaiAura from './assets/hyundai_aura.png'
+import hondaAmaze from './assets/honda_amaze.png'
+import hyundaiXcent from './assets/hyundai_xcent.png'
+import marutiErtiga from './assets/maruti_ertiga.png'
+import kiaCarnes from './assets/kia_carnes.png'
+import toyotaInnova from './assets/toyota_innova.png'
+import toofan from './assets/toofan.png'
+import tempoTraveller from './assets/tempo_traveller.png'
+import forceUrbania from './assets/force_urbania.png'
+
 const LiveAvailability = () => {
   const [activeTab, setActiveTab] = useState('all');
-  const [liveCount, setLiveCount] = useState(47);
+  const [liveCount, setLiveCount] = useState(12);
 
   const categories = [
   { id: 'all', label: 'All Cars', icon: 'Car' },
@@ -25,7 +36,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Hispanic male driver with warm smile wearing formal black suit and white shirt",
     rating: 4.9,
     trips: 139,
-    image: "https://unsplash.com/photos/blue-bmw-m-3-on-road-during-daytime-DpGNVXCH5_8",
+    image: swiftDesire,
     imageAlt: "Silver Toyota Camry sedan parked in urban setting with modern buildings and clear sky in background",
     passengers: 4,
     luggage: 2,
@@ -42,7 +53,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Caucasian female driver with friendly expression wearing navy blue blazer and white blouse",
     rating: 4.8,
     trips: 187,
-    image: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Hyundai_Aura_front.png",
+    image: hyundaiAura,
     imageAlt: "Black Honda Accord sedan on city street with sleek design and modern headlights during evening",
     passengers: 4,
     luggage: 3,
@@ -59,7 +70,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional African American male driver with confident smile wearing gray suit and blue tie",
     rating: 4.9,
     trips: 42,
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hyundai_Xcent_2017.png",
+    image: hyundaiXcent,
     imageAlt: "White Ford Explorer SUV parked on mountain road with scenic landscape and pine trees in background",
     passengers: 4,
     luggage: 2,
@@ -76,7 +87,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 156,
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Honda_Amaze_2018.png",
+    image: hondaAmaze,
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 4,
     luggage: 2,
@@ -93,7 +104,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Hispanic male driver with warm smile wearing formal black suit and white shirt",
     rating: 4.9,
     trips: 139,
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_15d038400-1764831418921.png",
+    image: marutiErtiga,
     imageAlt: "Silver Toyota Camry sedan parked in urban setting with modern buildings and clear sky in background",
     passengers: 6,
     luggage: 4,
@@ -110,7 +121,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Caucasian female driver with friendly expression wearing navy blue blazer and white blouse",
     rating: 4.8,
     trips: 187,
-    image: "https://images.unsplash.com/photo-1734205496756-4784ca64a194",
+    image: kiaCarnes,
     imageAlt: "Black Honda Accord sedan on city street with sleek design and modern headlights during evening",
     passengers: 6,
     luggage: 4,
@@ -127,7 +138,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional African American male driver with confident smile wearing gray suit and blue tie",
     rating: 4.9,
     trips: 42,
-    image: "https://images.unsplash.com/photo-1681580481786-475fc6e7dc5c",
+    image: toyotaInnova,
     imageAlt: "White Ford Explorer SUV parked on mountain road with scenic landscape and pine trees in background",
     passengers: 6,
     luggage: 4,
@@ -144,7 +155,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 53,
-    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    image: toyotaInnova,
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 7,
     luggage: 5,
@@ -161,7 +172,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 53,
-    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    image: toofan,
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 10,
     luggage: 5,
@@ -178,7 +189,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 53,
-    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    image: tempoTraveller,
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 10,
     luggage: 5,
@@ -195,7 +206,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 53,
-    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    image: tempoTraveller,
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 12,
     luggage: 6,
@@ -212,7 +223,7 @@ const LiveAvailability = () => {
     driverImageAlt: "Professional Asian male driver with polished appearance wearing black tuxedo and bow tie",
     rating: 5.0,
     trips: 53,
-    image: "https://images.unsplash.com/photo-1729831607236-f4187bf35632",
+    image: forceUrbania,
     imageAlt: "Black Mercedes S-Class luxury sedan with chrome accents parked in front of upscale hotel entrance",
     passengers: 17,
     luggage: 10,
@@ -229,7 +240,7 @@ const LiveAvailability = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setLiveCount((prev) => prev + Math.floor(Math.random() * 3) - 1);
+      setLiveCount(12);
     }, 5000);
     return () => clearInterval(interval);
   }, []);
@@ -280,7 +291,7 @@ const LiveAvailability = () => {
                 <Image
                 src={car?.image}
                 alt={car?.imageAlt}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                className="w-full h-full object-fill group-hover:scale-110 transition-transform duration-500" />
 
                 <div className="absolute top-3 right-3 bg-success text-success-foreground px-3 py-1 rounded-full text-xs font-semibold flex items-center space-x-1">
                   <div className="w-2 h-2 bg-success-foreground rounded-full animate-pulse"></div>
@@ -364,16 +375,7 @@ const LiveAvailability = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Link to="/fleet-gallery">
-            <Button
-              variant="outline"
-              size="lg"
-              iconName="Car"
-              iconPosition="left">
-
-              View Complete Fleet
-            </Button>
-          </Link>
+          
         </div>
       </div>
     </div>);

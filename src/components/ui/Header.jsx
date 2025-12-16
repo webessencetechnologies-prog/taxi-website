@@ -9,8 +9,6 @@ const Header = () => {
 
   const navigationItems = [
     { path: '/homepage', label: 'Home', icon: 'Home' },
-    { path: '/fleet-gallery', label: 'Fleet', icon: 'Car' },
-    { path: '/route-planner', label: 'Routes', icon: 'Map' },
     { path: '/pricing-dashboard', label: 'Pricing', icon: 'DollarSign' },
     { path: '/contact-hub', label: 'Contact', icon: 'Phone' }
   ];

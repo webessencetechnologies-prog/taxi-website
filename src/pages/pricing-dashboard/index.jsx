@@ -83,7 +83,7 @@ const PricingDashboard = () => {
           </div>
         </section>
 
-        <section className="py-12">
+        {/* <section className="py-12">
           <div className="container mx-auto px-4">
             <div className="bg-card rounded-xl border border-border p-2 mb-8 overflow-x-auto">
               <div className="flex space-x-2 min-w-max">
@@ -119,7 +119,7 @@ const PricingDashboard = () => {
 
             {activeTab === 'alerts' && <PriceAlerts />}
           </div>
-        </section>
+        </section> */}
 
         <section className="py-16 bg-gradient-to-br from-primary/5 to-secondary/5">
           <div className="container mx-auto px-4">

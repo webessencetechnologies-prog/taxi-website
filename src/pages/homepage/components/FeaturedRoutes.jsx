@@ -148,7 +148,7 @@ const FeaturedRoutes = () => {
                   size="sm"
                   iconName="ArrowRight"
                   iconPosition="right"
-                  onClick={() => window.location.href = `/route-planner?route=${route?.id}`}>
+                  onClick={() => window.open('https://wa.me/+919409713448', '_blank')}>
 
                     Book Now
                   </Button>
@@ -156,19 +156,6 @@ const FeaturedRoutes = () => {
               </div>
             </div>
           )}
-        </div>
-
-        <div className="text-center mt-12">
-          <Link to="/route-planner">
-            <Button
-              variant="outline"
-              size="lg"
-              iconName="Map"
-              iconPosition="left">
-
-              View All Routes
-            </Button>
-          </Link>
         </div>
       </div>
     </div>);

@@ -11,12 +11,11 @@ const HeroSection = ({ onRouteSelect, onBookNow }) => {
   const [animatedCount, setAnimatedCount] = useState(0);
 
   const popularLocations = [
-    { value: 'airport', label: 'International Airport', description: '15 km from city center' },
-    { value: 'downtown', label: 'Downtown Business District', description: 'Central location' },
-    { value: 'mall', label: 'Grand Shopping Mall', description: '8 km from airport' },
-    { value: 'hotel-zone', label: 'Hotel Zone', description: 'Tourist area' },
-    { value: 'train-station', label: 'Central Train Station', description: 'Main railway hub' },
-    { value: 'convention', label: 'Convention Center', description: 'Event venue' }
+    { value: 'Ahmedabad', label: 'Ahmedabad', description: 'Main City' },
+    { value: 'Dwarka', label: 'Dwarka', description: 'Dwarka City' },
+    { value: 'Diu', label: 'Diu', description: 'Diu city' },
+    { value: 'Mount Abu', label: 'Mount Abu', description: 'Mount Abu City' },
+    { value: 'Somnath', label: 'Somnath', description: 'Somnath City' },
   ];
 
   const passengerOptions = [
@@ -144,18 +143,6 @@ const HeroSection = ({ onRouteSelect, onBookNow }) => {
                   onChange={setLuggage}
                 />
               </div>
-
-              <Button
-                variant="default"
-                size="lg"
-                fullWidth
-                iconName="Search"
-                iconPosition="right"
-                onClick={handleBooking}
-                disabled={!selectedPickup || !selectedDropoff}
-              >
-                Find Available Cars
-              </Button>
 
               <div className="flex items-center justify-center space-x-4 pt-4 border-t border-border">
                 <Button
